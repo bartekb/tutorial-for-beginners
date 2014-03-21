@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyText
+  price: 1
+  is_enabled: false
+  sale_to: 2014-02-28 12:20:14
+
+two:
+  name: MyString
+  description: MyText
+  price: 1
+  is_enabled: false
+  sale_to: 2014-02-28 12:20:14

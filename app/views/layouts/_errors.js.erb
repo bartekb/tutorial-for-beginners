@@ -1,0 +1,3 @@
+<% object.errors.full_messages.each do |error| %>
+  alertify.error('<%= escape_javascript(error) %>');
+<% end %>

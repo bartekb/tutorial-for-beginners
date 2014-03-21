@@ -1,0 +1,8 @@
+<%= simple_form_for(@animal, :remote => true) do |f| %>
+
+  <%= f.input :name, :label => "Name it!", :hint => "Some fun name!" %>
+  <%= f.input :gender_id, :collection => Gender.all %>
+  <%= f.input :seen_at %>
+  <%= f.button :submit %>
+
+<% end %>

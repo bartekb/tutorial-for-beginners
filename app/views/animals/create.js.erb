@@ -1,0 +1,7 @@
+<% if @animal.errors.any? %>
+  <%= render :partial => "layouts/errors", :locals => { :object => @animal } %>
+<% else %>
+  $('#foo').html('<%= escape_javascript(render :partial => :animal, :collection => @animals) %>');
+  parent.$.fancybox.close();
+  alertify.success("Animal saved!");
+<% end %>
